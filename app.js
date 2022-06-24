@@ -5,7 +5,7 @@ const prisma = new PrismaClient();
 const app = express();
 
 app.use(express.json());
-
+console.log("hola");
 app.get("/", (req, res) => {
   res.send("HOLA MUNDO");
 });
